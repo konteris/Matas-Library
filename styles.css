@@ -1,0 +1,125 @@
+body{
+    background-image: url('./images/Header_img.jpg');
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;;
+    padding:0;
+    margin:0;
+    color:aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:44px; 
+    
+}
+.left-links{
+    margin-left: 44px;
+    font-family: Courier;
+    font-size: 44px;
+}
+ul{
+    display: flex;
+    padding-left: 0;
+    padding-bottom: 32px;
+    margin:0;
+    list-style-type: none;
+    gap: 16px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.introduction{
+    display: flex;
+    height: 50vh;
+    gap: 32px;
+    width: 100%;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #252323d3;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    padding-left:88px;
+    flex-flow: column wrap;
+    flex: 1;
+}
+h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin:0;
+}
+p{
+    margin:0;
+    font-size: 24px;
+}
+button{
+    background-color:			#574229;
+    font-size: 24px;
+    padding:4px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    width:180px;
+    color:bisque
+}
+button:hover{
+    background-color: 	#b8884e; 
+    color:bisque;
+}
+.right{
+    flex: 1;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    margin-top: 40px;
+    margin-right: 15%;
+    min-width: 300px;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 150px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recenzijos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 36px;
+    font-weight: 900;
+}
+.knygos{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+}
+.text{
+    flex: 1 1 0px;
+    width: 200px;
+    text-align: center;
+}
